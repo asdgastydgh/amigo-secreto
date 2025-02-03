@@ -6,10 +6,11 @@
 
 • Validar entrada: Si el campo de texto está vacío, el programa mostrará una alerta pidiendo un nombre válido.
 
+![validar entrada](https://github.com/user-attachments/assets/4f1b1058-c5b0-4f30-86ce-1e41bf4d2d3e)
+
 • Visualizar la lista: Los nombres ingresados aparecerán en una lista debajo del campo de entrada.
 
 ![2](https://github.com/user-attachments/assets/9052869e-c69d-4c31-8832-1d1f0bae1561)
-
 
 • Sorteo aleatorio: Al hacer clic en el botón "Sortear Amigo", se seleccionará aleatoriamente un nombre de la lista y se mostrará en la página.
 
