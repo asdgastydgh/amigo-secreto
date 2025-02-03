@@ -3,13 +3,17 @@ const texto = document.getElementById('nombreAmigo');
 const lista = document.getElementById('listaAmigos');
 let listaDeAmigos = [];
 
-function agregarAmigo() {
-    if (validarEntrada() ) {
-        listaDeAmigos.push(texto.value)
-        lista.innerHTML = listaDeAmigos;
+
+function agregarAmigo(){
+    if (validarEntrada()){
+        listaDeAmigos.push(texto.value);
     }
-    //console.log(listaDeAmigos)
+    lista.innerHTML="";
+    for(let i = 0; i < listaDeAmigos.length;i++){
+        lista.innerHTML += `<li>${listaDeAmigos[i]}</li>`;
+    }
 }
+
 
 function validarEntrada(){
     for (let index = 0; index < listaDeAmigos.length; index++) {
