@@ -18,7 +18,7 @@ function agregarAmigo(){
 function validarEntrada(){
     for (let index = 0; index < listaDeAmigos.length; index++) {
         if (listaDeAmigos[index] == texto.value) {
-            alert ("Ya colocaste ese nombre!! proba con otro")
+            alert ("Ya colocaste ese nombre, probá con otro!")
             return false
         }
     }
